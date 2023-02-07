@@ -1,0 +1,60 @@
+header{
+    background-image: url(/Material/header-footer/banner-2.jpg);
+    padding: 10px;
+    }
+.lognv{
+    display: flex;justify-content: center;
+}
+.navline{
+    display: flex;justify-content: end;
+}
+.btn {
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: darkorange;
+    border-radius: 5px 0px;
+    background-color: rgba(117, 117, 117, 0.39);
+    cursor: pointer;
+    margin: 10px;
+}
+.btn:hover{
+    font-size: 18pt; padding: 12pt;
+    background-color: #f22000a9;
+}
+.logo{
+    text-decoration: solid double; color: rgb(250, 121, 0);
+    font-size: 20pt; padding: 10px;
+}
+main{
+    background-image: url(/Material/header-footer/body-background.jpg);
+    padding: 18vh;
+}
+.tgame{
+    display:flex; justify-content: space-evenly;
+   
+}
+.egame{
+ margin: 15px;
+}
+.text{
+    background-image: url(/Material/header-footer/bg.jpg); height:15%;padding-top: 5px;
+}
+.text h1{
+    font-weight: bolder; font-size: 16pt; color:rgb(250, 121, 0);margin-left: 5px;
+}
+.text p{
+    font-size: 14pt;color: #ffffff;margin-left: 5px; font-weight: bolder;
+}
+.designfooter{
+    background-image: url(/Material/header-footer/bg.jpg);
+    display: flex; justify-content: space-between;
+}
+.parceiros h2{
+    font-size: 18pt; font-family: Arial, Helvetica, sans-serif;
+    color: rgb(250, 121, 0); font-weight: bolder;
+}
+.parceiros{
+    font-size: 14pt; font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff; font-weight: bolder; padding-right: 15px;
+}

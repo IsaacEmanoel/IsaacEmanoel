@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="/Reset/rest_css/reset.css">
+    <link rel="stylesheet" href="/Pages/03/form.css" >
+    <title>game-cadastro</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="lognv">
+            <h1 class="logo">DawnEnding</h1>
+            </div>
+            <ul class="navline">
+                <li><input class="btn" type="button" value="Home" onclick="location.href='http://127.0.0.1:5500/Pages/01/home.html'"></li>
+                <li><input class="btn" type="button" value="Gane" onclick="location.href='http://127.0.0.1:5500/Pages/02/page-game.html'"></li> 
+                <li><input class="btn" type="button" value="Contato" onclick="location.href='http://127.0.0.1:5500/Pages/03/form.html'"> </li>          
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form method="get" action=" "  class="form-completo" id="fom-user">
+            <fieldset class="form-user">
+                <legend class="tit-form">
+                    Cadastro User
+                </legend>
+                <label class="tags-form" for="n-completo">Nome Completo<input id="n-completo" type="text" placeholder="nome" required ></label>
+                <label class="tags-form" for="n-user">Username<input id="n-user" type="text" value="Usuário" name="n-user" required></label>
+                <label class="tags-form" for="e-mail">E-mail<input id="e-mail" type="email" value=" e-mail" name="e-mail" required></label>
+                <label for="n-tel" class="tags-form">Tel: <input id="n-tel" type="tel" name="n-tel"></label>
+            </fieldset>
+            <fieldset>
+                <legend class="ok-inter">Teria interesse em receber atualizações pelo waths?</legend>
+                <label class="tags-ok" for="ok">Sim, eu gostaria. <input id="ok" type="checkbox" name="ok" required></label>
+                <legend class="tags-ok">Mensagem</legend>
+                <textarea maxlength="150" name="fom-user" id="user" class="msm-ok"></textarea>
+            </fieldset>
+        </form>
+    </main>
+    <footer class="designfooter">
+        <div><img src="/Material/logos/OIP.png" alt="logo"></div>
+        <fieldset class="parceiros">
+            <h2>Quero desenvolver essa parte com grind:</h2>
+            <p>Por enquanto vou deixar esses textos, obrigado por acessar esse humilde site.</p>
+        </fieldset>
+    </footer>
+</body>
+</html>

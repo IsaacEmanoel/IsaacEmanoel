@@ -1,0 +1,86 @@
+header{
+    background-image: url(/Material/header-footer/banner-2.jpg);
+    padding: 10px;
+    }
+.logo{
+    display: block; text-align: center;
+    text-decoration: solid double; color: rgb(250, 121, 0);
+    font-size: 20pt; padding: 10px;
+}
+.sublogo{
+    display: block; text-align: center;
+    text-decoration: solid double; color: rgb(255, 0, 0);
+    font-size: 16pt;
+}
+#men{
+    display: flex;
+    justify-content: end;    
+    }
+#men li{
+    list-style: none;
+}
+.btn {
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: darkorange;
+    border-radius: 5px 0px;
+    background-color: rgba(117, 117, 117, 0.39);
+    cursor: pointer;
+    margin: 10px;
+}
+.btn:hover{
+    font-size: 18pt; padding: 12pt;
+    background-color: #f22000a9;
+}
+main{    
+    background-image: url(/Material/header-footer/banner-4.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-color: rgb(10, 10, 10);
+    padding: 10px;
+}
+.titulo-text{
+    text-decoration: solid double;
+    font-weight: bolder;
+    font-size: 20pt;
+    color: rgb(255, 0, 0);
+}
+.textapre{
+    font-size: 18pt; font-weight: bolder;
+    text-align: justify;
+    text-decoration: solid double;
+    font-size: 12pt; margin: 15px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(165, 42, 42, 0.548);
+    opacity: 0.9;
+}
+.tube-texto{
+    display: flex;
+}
+.cprpg{
+    display:flex; margin: 15px;
+}
+.h2cprpg{
+    padding: 10px; font: bolder 20pt;color: rgb(255, 255, 255); background-color: rgba(165, 42, 42, 0.801);
+    border: solid 5px orangered; border-bottom: none; border-radius: 5px 5px 0px 0px;
+}
+.pcprpg{
+    font: bolder 16pt; color: aliceblue; background-color: rgba(165, 42, 42, 0.801);
+    border: solid 5px orangered; border-top: none; border-radius: 0px 0px 5px 5px;
+}
+footer{
+    background-image: url(/Material/header-footer/bg.jpg); padding: 10px;
+    background-color: rgba(20, 3, 253, 0.507); 
+    display: flex;
+}
+.footer-ti{
+    float: left;
+    font-size: 15pt; color: rgb(255, 255, 255); 
+}
+.img-footer{
+    float: right; margin-left: auto; margin-right: auto;
+    width: 350px;
+    height: 200px;
+}
